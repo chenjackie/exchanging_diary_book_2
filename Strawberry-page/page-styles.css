@@ -172,16 +172,10 @@ p {
 }
 
 .icon-home{
-	content: "\e600";
-	font-family: 'icomoon';
-	font-size: 3.5em;
-	color:#40222E;
-	text-shadow:1px 1px 1px white;
 	position: absolute;
-	top:0.8%;
+	top:0.1%;
 	left:5%;
 	z-index: 1;
-	-webkit-font-smoothing: antialiased;
 }
 
 li {

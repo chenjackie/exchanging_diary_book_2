@@ -68,7 +68,7 @@
 }
 
 .carousel-control.left{
-background: rgba(176,37,141,1);
+background: rgba(176,37,141,0.3);
 background: -moz-linear-gradient(left, rgba(176,37,141,1) 0%, rgba(193,70,161,1) 18%, rgba(235,82,197,1) 36%, rgba(240,184,229,1) 52%, rgba(250,242,248,1) 70%, rgba(255,255,255,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(176,37,141,1)), color-stop(18%, rgba(193,70,161,1)), color-stop(36%, rgba(235,82,197,1)), color-stop(52%, rgba(240,184,229,1)), color-stop(70%, rgba(250,242,248,1)), color-stop(100%, rgba(255,255,255,1)));
 background: -webkit-linear-gradient(left, rgba(176,37,141,1) 0%, rgba(193,70,161,1) 18%, rgba(235,82,197,1) 36%, rgba(240,184,229,1) 52%, rgba(250,242,248,1) 70%, rgba(255,255,255,1) 100%);
@@ -78,7 +78,7 @@ background: linear-gradient(to right, rgba(176,37,141,1) 0%, rgba(193,70,161,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0258d', endColorstr='#ffffff', GradientType=1 ) !important;}
 
 .carousel-control.right{
-background: rgba(252,249,251,1);
+background: rgba(252,249,251,0.3);
 background: -moz-linear-gradient(left, rgba(252,249,251,1) 0%, rgba(250,242,248,1) 22%, rgba(240,184,229,1) 43%, rgba(235,82,197,1) 65%, rgba(193,70,161,1) 82%, rgba(176,37,141,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,249,251,1)), color-stop(22%, rgba(250,242,248,1)), color-stop(43%, rgba(240,184,229,1)), color-stop(65%, rgba(235,82,197,1)), color-stop(82%, rgba(193,70,161,1)), color-stop(100%, rgba(176,37,141,1)));
 background: -webkit-linear-gradient(left, rgba(252,249,251,1) 0%, rgba(250,242,248,1) 22%, rgba(240,184,229,1) 43%, rgba(235,82,197,1) 65%, rgba(193,70,161,1) 82%, rgba(176,37,141,1) 100%);
