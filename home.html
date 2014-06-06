@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exchange Diary Book</title>
+
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/jackie.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>    
+  </head>
+<!--navbar-->
+<body>
+  <div class="container">
+    <div id="background-image" class="row">
+        
+        <div class="col-md-12">
+          <header class="page-header">
+            <ul class="nav nav-tabs pull-right">
+              <li class="active"><a href="index.html">Home</a></li>
+           
+              <li class="dropdown"><a data-toggle="dropdown" data-target="#">Breakfast Time<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="breakfast.html">Food Style</a><li>
+                  <li><a href="#">Tool</a><li>
+                  <li><a href="#">Store</a><li>
+                </ul>
+              </li>
+
+              <li class="dropdown"><a data-toggle="dropdown" data-target="#"href="lunch.html">Lunch Time<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="lunch.html">Food Style</a></li>
+                  <li><a href="#">Tool</a><li>
+                  <li><a href="#">Store</a><li>
+                </ul>
+              </li>
+
+              </li>
+              <li class="dropdown"><a data-toggle="dropdown" data-target="#">Dinner Time<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="dinner2.html">Food Style</a></li>
+                  <li><a href="#">Tool</a><li>
+                  <li><a href="#">Store</a><li>
+                </ul>
+              </li>
+            </ul>
+
+            <a href="#"><img class="pull-right" src="images/facebookicon.png"></a>
+            <a href="#"><img class="pull-right" src="images/twittericon.png"></a>
+          <div class="col-md-1">
+            <img src="images/exchange_diary_book_icon.png">
+          </div>
+            <h1 id="title">Exchange Cooking fun Book</h1>           
+          </header>
+        </div>
+      </div>
+    <div class="row">
+      <div class="input-group col-md-3 col-md-offset-9">
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+
+<!--photoslide-->
+  <div>
+    <div id="maintron" class="carousel slide">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#maintron" data-slide-to="0"></li>
+          <li data-target="#maintron" data-slide-to="1"></li>
+          <li data-target="#maintron" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+  
+          <div class="item active">
+            <p id="lead">Life is Random</p>
+            <p id="sub-lead">Learn how to stay in the foreign country with eating in healthy and easy way. We will show you the tips to make your life simple but enjoyable.</p>
+            <p class="btn-group">
+              <a class="btn btn-success btn-lg" href="#">Download the app</a>
+              <a class="btn btn-default btn-lg" data-toggle="modal" href="#textModal">Text me the links</a>
+            </p>
+          </div>
+       
+          <div class="item">
+            <p id="lead">Life is Random</p>
+            <p id="sub-lead">Learn how to stay in the foreign country with eating in healthy and easy way. We will show you the tips to make your life simple but enjoyable.</p>
+            <p class="btn-group">
+              <a class="btn btn-success btn-lg" href="#">Download the app</a>
+              <a class="btn btn-default btn-lg" data-toggle="modal" href="#textModal">Text me the links</a>
+            </p>
+          </div>
+
+          <div class="item">
+            <p id="lead">Life is Random</p>
+            <p id="sub-lead">Learn how to stay in the foreign country with eating in healthy and easy way. We will show you the tips to make your life simple but enjoyable.</p>
+            <p class="btn-group">
+              <a class="btn btn-success btn-lg" href="#">Download the app</a>
+              <a class="btn btn-default btn-lg" data-toggle="modal" href="#textModal">Text me the links</a>
+            </p>
+          </div>
+        </div>
+      
+        <a class="left carousel-control" href="#maintron" data-slide="prev">
+        <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#maintron" data-slide="next">
+        <span class="icon-next"></span>
+        </a>
+      </div>
+
+<!--Modal-->
+      <div class="modal fade" id="textModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title">We'll Text You the Link!</h4>
+            </div>
+            <div class="modal-body">
+              <form class-"form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="mobilePhone">Mobile Phone</label>
+                  <input type="tel" class="form-control" id="mobilePhone" placeholder="Mobile Phone">
+                </div>
+
+                <div class="form-group">
+                  <select class="form-control">
+                    <option>iOS</option>
+                    <option>Android</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary" data-dismiss="modal">Send me link</button>
+              </form>
+            </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+<!--content-->
+  <div>
+    <div class="row">
+      <div class="col-md-4">
+        <div  class="thumbnail">
+          <h2>Breakfast Time Must to eat: <em>Protein</em></h2>
+          <a data-toggle="modal" href="#videoModal4"><img class="img-responsive" src="images/breakfast.png" alt="protein meal" class="img-rounded">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div  class="thumbnail">
+          <h2>Lunch Time Must to be: <em>Balance</em><h2>
+          <a data-toggle="modal" href="#videoModal2"><img src="images/lunch.jpg" alt="balance meal" class="img-rounded"></a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div  class="thumbnail">
+          <h2>Dinner Time Must to be: <em>Light & Fiber</em><h2>
+          <a data-toggle="modal" href="#videoModal3"><img src="images/dinner.jpg" alt="balance meal" class="img-rounded"></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+      <div class="row">
+        <div class="col-xs-6">
+          <h2>What tips you can get from us?</h2>
+          <details>
+            <summary><em>Delicious But Simple Recipe!</em></summary> 
+            <p> We share all what we eat everyday here for your tips. Take a note for any article you think it is useful.</p>
+          </details>
+
+        <div class="row">
+            <div class="col-xs-6">
+              <a data-toggle="modal" href="#videoModal">
+              <img class="img-responsive" src="images/video-start.jpg">
+              </a>
+            </div>
+            <div class="col-xs-6">
+              <p>Get access to these courses for only $10 a month!</p>
+              <a href="#">Visit Younetic Class Now &raquo;</a>
+              <p>Or download the app and try it first</p>
+              <a class="btn btn-default btn-sm" data-icon="&#xe600;" href="#">iOS</a>
+              <a class="btn btn-default btn-sm" data-icon="&#xe601;" href="#">Android</a>
+            </div>
+        </div>
+      </div> 
+
+        <div class="col-xs-6">
+          <h2>About Exchange Cooking fun Book</h2>
+          <p> Me, Jackie is from Taiwan and Jisu is Korean but is an american style man. Our life style is fill by multiculture atmosphere. Our sharing here definitely will inspirate you!</p>
+          <p><a href="#">Sign up for getting Exchange Diary Monthly Magazine</a></p>
+          <div class="row">
+            <figure class="col-sm-12">
+              <b class="glyphicon glyphicon-cutlery"></b>
+              <h4>Show below coupon when you purchase, get one free $15 dollars value meal <b class="glyphicon glyphicon-print"></b></h4>
+              <image class="image-frame" src="images/breakfast-banner-s.jpg">
+              <figcaption>New Opening at Woodside</figcaption>
+            </figure>
+          </div>
+        </div>  
+      </div>
+<!--footer-->
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 footer-bg">
+            <img class="pull-left" src="images/contact_me_logo.png">
+          <div class="row">
+            <div class="col-md-3 col-md-pull-9"></div>
+            <div class="col-md-9 col-md-push-3">
+              <img class="another-element pull-right" src="images/FB_link.png">
+              <img class="another-element pull-right" src="images/twitter_link.png">
+              <img class="another-element pull-right" src="images/email_link.png">
+            </div>
+          </div>
+      
+          <div class="row">
+            <footer class="col-md-12">   
+              <p>&copy; Exchange Diary Book 2014</p>
+            </footer>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <!--Video Modal 1-->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Annoyed Orange Gives you a Break!</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="560" height="350" src="http://www.youtube.com/embed/ZN5PoW7_kdA" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--End Video Modal 1--> 
+
+    <!--Video Modal 2-->
+    <div class="modal fade" id="videoModal2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">高麗菜炒年糕</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="560" height="350" align="middle" src="http://www.youtube.com/embed/blS9Y8Ld_qU" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--End Video Modal 2--> 
+
+  <!--Video Modal 3-->
+    <div class="modal fade" id="videoModal3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Learn to make the PANINI!!</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="560" height="350" align="middle" src="http://www.youtube.com/embed/10dZTHlkb8w" frameborder="0" allowfullscreen></iframe>            
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--End Video Modal 3--> 
+
+    <!--Video Modal 4-->
+    <div class="modal fade" id="videoModal4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Learn to make the CHINESE WINE EGG!!</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="560" height="350" align="middle" src="http://www.youtube.com/embed/xSq32j6Fh08" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--End Video Modal 4--> 
+
+
+
+
+  </body>
+</html>

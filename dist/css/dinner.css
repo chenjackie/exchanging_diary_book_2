@@ -1,0 +1,129 @@
+div .col-sm-9 h1{
+	text-transform: capitalize;
+	text-align: left;
+	font-size: 3em;
+	text-shadow:1px 1px 4px #72767F;
+	color: #00B0FF;
+	margin: 0px 0 50px 0;
+}
+
+a+h4{
+	color: gray;
+	text-align: right;
+}
+
+h4+img{
+	float:left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+img+p{
+	float:none;
+}
+
+p{
+	font-size: 1.5em;
+	font-style: normal;
+}
+
+h4+p{
+	text-indent: 70px;
+}
+
+
+blockquote{
+	text-align: justify;
+	font-size: 1.2em;
+	background-color: rgba(178, 18, 171, 0.3);
+}
+
+a[href$=".pdf"]{
+	background-image: url('../../images/pdficon.png') no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+span[class="glyphicon glyphicon-hand-right"]:first-line{
+	color:red;
+	line-height:double;
+	font-size: 1.5em;
+}
+
+span ul li{
+	list-style-type: none;
+	list-style-position: inside;
+	list-style-image: url('../../images/cooking-icon.png');
+	margin-bottom:2px;
+	font-size: 1.5em;
+}
+
+
+blockquote a[href$=".tw"]{
+	background: url('../../images/twittericon-s.png') no-repeat;
+	background-position: 0px 2px;
+	padding-left: 28px;
+}
+
+p::selection{
+	color:red;
+	background-color:yellow;
+}
+
+ul li::selection{
+	color:red;
+	background-color:yellow;
+}
+
+span::selection{
+	color: red;
+	background-color: yellow;
+}
+
+.col-sm-9 h2{
+	color: #FFD019;
+}
+
+div .side-about{
+	background-color: #FFF066;
+	border-style:none dashed dotted solid;
+	border-width: 15px;
+	border-color: #14AECC green blue red;
+	margin-top: 130px;
+	padding:15px 30px 30px 15px;
+}
+
+div .side-about h5:first-letter{
+	font-size: 2.5em;
+	color: #FF006D;
+}
+
+div .side-about p{
+	font-size: 1.5rem;
+	line-height: 1;
+}
+
+.calendar a:hover{
+	font-size: 1.3em;
+}
+
+
+.calendar a:active{
+	color:red;
+	text-decoration: underline;
+}
+
+.calendar a:link{
+	padding:20px 20px 20px 80px;
+	line-height: 2;
+}
+
+.calendar a:visited{
+	text-decoration: underline;
+}
+
+.calendar>h4{
+	margin:20px 20px 10px 70px;
+	font-size: 2em;
+	color:#4BCC14;
+}
